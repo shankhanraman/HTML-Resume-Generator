@@ -19,7 +19,7 @@ The main challenge addressed was converting a LinkedIn PDF resume into a structu
    - **PDF Parsing**: Used `PyPDF2` to extract text from the uploaded PDF resume. This library helps in reading the content of the PDF, including sections like education, experience, and skills.
 
 2. **Text Processing**:
-   - **OpenAI **: Utilized OpenAI's  API to process and format the extracted text into HTML. This involved sending the extracted resume content to GPT-3 for conversion into a well-structured HTML format.
+   - **OpenAI**: Utilized OpenAI's  API to process and format the extracted text into HTML. This involved sending the extracted resume content to GPT-3 for conversion into a well-structured HTML format.
 
 3. **User Interface**:
    - **Streamlit**: Developed the web interface using Streamlit. This framework provides an easy way to create interactive web applications with a clean, dark-themed UI for better readability and user experience.
