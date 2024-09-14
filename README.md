@@ -12,6 +12,22 @@ This web application, built using **Streamlit**, allows users to convert their L
 - Python 3.7 or above
 - OpenAI API Key (for interacting with GPT-3)
 
+## Problem Solved
+The main challenge addressed was converting a LinkedIn PDF resume into a structured HTML resume. To convert LinkedIn PDF resumes into HTML format, we used the following approach and methods:
+
+1. **PDF Extraction**:
+   - **PDF Parsing**: Used `PyPDF2` to extract text from the uploaded PDF resume. This library helps in reading the content of the PDF, including sections like education, experience, and skills.
+
+2. **Text Processing**:
+   - **OpenAI **: Utilized OpenAI's  API to process and format the extracted text into HTML. This involved sending the extracted resume content to GPT-3 for conversion into a well-structured HTML format.
+
+3. **User Interface**:
+   - **Streamlit**: Developed the web interface using Streamlit. This framework provides an easy way to create interactive web applications with a clean, dark-themed UI for better readability and user experience.
+
+4. **Deployment**:
+   - **Vercel**: Deployed the Streamlit application on Vercel for easy access and sharing. This involved configuring the Vercel deployment settings to run the Streamlit app and handle file uploads.
+
+
 ## Installation
 1. **Clone the repository**:
    ```bash
